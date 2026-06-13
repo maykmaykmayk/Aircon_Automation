@@ -1,7 +1,0 @@
-# Build scripts
-build.sh
-build.bat
-
-# Python cache
-__pycache__/
-*.py[cod]
