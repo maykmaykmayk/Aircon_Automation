@@ -1,6 +1,6 @@
-# Aircon Automation (CLI)
+# Aircon Automation (CLI) - Sir Edward Project
 
-Interactive aircon sizing calculator using `inquirer` prompts and `rich` terminal output.
+# Testing for possible improvements
 
 ## Requirements
 
@@ -10,15 +10,14 @@ Interactive aircon sizing calculator using `inquirer` prompts and `rich` termina
   - `inquirer`
   - `pyinstaller`
 
-Install dependencies:
-
+How to Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Run the Python Version
 
-```bash
+```bash 
 python main.py
 ```
 
@@ -34,20 +33,4 @@ On Windows, this produces:
 
 - `dist/aircon-calculator.exe`
 
-### Windows Build Script
-
-```bat
-build.bat
-```
-
-### Mac/Linux Build Script
-
-```bash
-chmod +x build.sh
-./build.sh
-```
-
-On Mac/Linux, output is:
-
-- `dist/aircon-calculator`
 
